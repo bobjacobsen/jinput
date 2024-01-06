@@ -10,7 +10,7 @@ jobs:
           distribution: 'zulu'
           java-version: '11'
       - run: |
-        java -version
-        ant -version
-        ant -f plugins/OSX/build.xml 
+          java -version
+          ant -version
+          ant -f plugins/OSX/build.xml 
       
