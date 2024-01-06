@@ -15,5 +15,7 @@ jobs:
       - run: |
           java -version
           ant -version
+          ls /Library/Java/JavaVirtualMachines/
+          echo $JAVA_HOME
           ant -f plugins/OSX/build.xml 
       
