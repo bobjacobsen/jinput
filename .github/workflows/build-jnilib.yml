@@ -1,7 +1,10 @@
+name: Build Jnilib on macOS
+
+on: [ push, pull_request ]
+
 jobs:
   build:
     runs-on: macos-latest
-    name: Build Jnilib on macOS
     steps:
       - uses: actions/checkout@v4
       - name: Setup java
